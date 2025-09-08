@@ -1,0 +1,19 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Data
+# Ignore everything in data/
+data/*
+
+# But keep the pizza_not_pizza folder
+!data/pizza_not_pizza/
+!data/pizza_not_pizza/**
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

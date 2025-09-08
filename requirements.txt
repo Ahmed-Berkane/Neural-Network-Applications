@@ -1,0 +1,7 @@
+kagglehub
+pandas
+numpy
+pillow
+matplotlib
+scikit-learn
+joblib>=1.2.0
