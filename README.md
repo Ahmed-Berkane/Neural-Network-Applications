@@ -52,17 +52,21 @@ This project is designed to apply different aspects of Neural Networks, includin
      python -m venv venv
      ```
      **Activate virtual environment**:
-     # On Windows:
+     On Windows:
      ```bash
      .\venv\Scripts\activate 
-    ```
-     # On macOS/Linux:
+     ```
+     On macOS/Linux:
      ```bash
      source venv/bin/activate
      ```
-   - **Install dependencies**:
+   - **Navigate to the repo folder**:
      ```bash
      cd Neural-Network-Applications
+     ```
+
+   - **Install dependencies**:
+     ```bash
      pip install -r requirements.txt
      ```
    - **Run the training script**:
@@ -77,8 +81,11 @@ This project is designed to apply different aspects of Neural Networks, includin
 ```
 Neural-Network-Applications/
 ├── data/            # Dataset files
+├── models/          # Save output models
+├── notebooks/       # Jupyter notebook
 ├── src/             # Data prep, models, training scripts
 ├── tests/           # Unit tests
+├── README.md       # Project documentation
 ├── requirements.txt # Dependencies
 ```
 
@@ -90,4 +97,3 @@ Neural-Network-Applications/
 - Modular project structure for scalability.  
 - Unit tests with pytest for reproducibility.  
 - Extensible design to add more NN architectures in the future.  
-── README.md # Project documentation
