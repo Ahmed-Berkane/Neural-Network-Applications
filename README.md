@@ -1,7 +1,4 @@
 # Neural-Network-Applications
-This repo is designed to apply diffrent NN aspects 
-
-# Neural-Network-Applications
 
 This project is designed to apply different aspects of Neural Networks, including building a custom logistic regression model and comparing it with scikit-learn implementations. The repo also demonstrates modular design for scalability, testing, and reproducibility.
 
@@ -52,12 +49,15 @@ This project is designed to apply different aspects of Neural Networks, includin
      ```
    - **Create a virtual environment**:
      ```bash
-     python3 -m venv venv
-
+     python -m venv venv
+     ```
+     **Activate virtual environment**:
      # On Windows:
+     ```bash
      .\venv\Scripts\activate 
-
+    ```
      # On macOS/Linux:
+     ```bash
      source venv/bin/activate
      ```
    - **Install dependencies**:
@@ -73,17 +73,16 @@ This project is designed to apply different aspects of Neural Networks, includin
 ---
 
 ### 6. Project Structure
+
+```
 Neural-Network-Applications/
-│── data/ # Dataset files
-│── src/ # Data prep, models, training scripts
-│── tests/ # Unit tests
-│── requirements.txt # Dependencies
+├── data/            # Dataset files
+├── src/             # Data prep, models, training scripts
+├── tests/           # Unit tests
+├── requirements.txt # Dependencies
+```
 
 
-
-
-
----
 
 ### 7. Features
 - Custom Neural Network Logistic Regression implementation (NumPy).  
